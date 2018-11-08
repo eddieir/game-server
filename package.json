@@ -1,19 +1,19 @@
 {
-  "name": "gameserver",
+  "name": "project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start":"node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
   },
-  "node":"8.12.0",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "express": "^4.16.4",
-    "mongod": "^2.0.0",
-    "mongojs": "^2.6.0",
-    "socket.io": "^2.1.1"
-  }
+  "license": "ISC"
 }
