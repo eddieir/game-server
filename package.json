@@ -10,7 +10,9 @@
   "engines": {
     "node": "8.12.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mongojs": "^2.6.0"
+  },
   "scripts": {
     "start": "node app.js"
   },
